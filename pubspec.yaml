@@ -1,0 +1,77 @@
+name: fcshd_guest
+description: FCSHD conference 2024
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  line_awesome_flutter: ^2.0.0
+  http: ^0.13.6
+  firebase_core: ^2.22.0
+  firebase_auth: ^4.14.0
+  flutter_overlay_loader: ^2.0.0
+  webview_flutter: ^4.4.2
+  qr_flutter: ^4.0.0
+  pretty_qr_code: ^2.0.2
+  firebase_database: ^10.4.0
+  pdf: ^3.6.0
+  url_launcher: ^6.0.0
+  firebase_messaging: ^14.7.10
+  firebase_analytics: ^10.8.0
+  iconsax: ^0.0.8
+  intl: ^0.18.1
+  syncfusion_flutter_pdf: ^24.2.8
+  path_provider: ^2.1.1
+  open_file: ^3.3.2
+  permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/login.png
+    - assets/images/cert_disabled.png
+    - assets/images/cert_enabled.png
+    - assets/images/home_banner.png
+    - assets/images/certificate.jpg
+
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
